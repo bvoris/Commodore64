@@ -1,17 +1,88 @@
-PRINT - print text to the screen
+
+The Commodore 64 has its own OS and programming language interpreter.
+The BASIC v2.0 (Beginner's All-purpose Symbolic Instruction Code Version 2) starts at the begining of the load screen.
+The following the commands associated with BASIC.
+ABS
+AND
+ASC(character) -prints and ASCII character to the screen
+ATN
+CHR$
+CLOSE
+CLR - CLEAR VARIABLES
+CMD
+CPMT
+COS
+DATA
+DEF
+DIM
+END
+EXP
+FN
+FOR
+FRE
+GET
+GET#
+GOSUB
+GOTO
+IF
 INPUT - anything requiring user input. Example: INPUT VARIABLE$
+INPUT#
+INT
+LEFT$
+LEN
 LET
-RUN
 LIST
+LOAD
+LOG
+MID$
+NEW
+NEXT
+NOT
+ON
+OPEN
+OR
+PEEK
+POKE
+POS
+PRINT - print text to the screen
+PRINT#
+READ
+REM
+RESTORE
+RETURN
+RIGHT$
+RND
+RUN
+SAVE
+SGN
+SIN
+SPC
+SQR
+STATUS / ST
+STEp
+STOP
+STR$
+SYS
+TAB
+TAN
+THEN
+TIME / TI
+TIME$ / TI$
+TO
+USR
+VAL
+VERIFY
+WAIT
+
 CRSR
 INST
 DEL
-RETURN
+
 LOAD
 SAVE
-CLR - CLEAR VARIABLES
-CHR
-POKE
+
+
+
 PRINT CHR$ (147) - CLEAR SCREEN
-ASC(character) -prints and ASCII character to the screen
+
 
