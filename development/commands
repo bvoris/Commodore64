@@ -77,66 +77,187 @@ DATA - is used to store constant information in the program code, and is used wi
             COMMODORE 64         12
             COMMODORE 64         14
             
-DEF - 
-DIM - 
+DEF -  defines a function with exactly one single numeric argument which can be executed with FN afterwards.
+  Example:  10 A=10: B=11
+            20 DEF FN C(X)= 3+(A*B)/2
+            30 D = FN C(0): PRINT D
+            
+DIM - allocates space in array memory for a new array, with one dimension for each of the dimension sizes d1, d2, d3, etc. given in the DIM statement.
+  Example:  
+  
 END - 
+  Example:  
+  
 EXP - 
+  Example:  
+  
 FN - 
-FOR
-FRE
-GET
-GET#
-GOSUB
-GOTO
-IF
+  Example:  
+  
+FOR - 
+  Example:  
+  
+FRE - 
+  Example:  
+  
+GET - 
+  Example:  
+  
+GET# -
+  Example:  
+  
+GOSUB - 
+  Example:  
+  
+GOTO - 
+  Example:  
+  
+IF - 
+  Example:  
+  
 INPUT - anything requiring user input. Example: INPUT VARIABLE$
-INPUT#
-INT
-LEFT$
-LEN
-LET
-LIST
-LOAD
-LOG
-MID$
-NEW
-NEXT
-NOT
-ON
-OPEN
-OR
-PEEK
-POKE
-POS
+  Example:  
+  
+INPUT# - 
+  Example:  
+  
+INT - 
+  Example:  
+  
+LEFT$ - 
+  Example:  
+  
+LEN - 
+  Example:  
+  
+LET - 
+  Example:  
+  
+LIST - 
+  Example:  
+  
+LOAD - 
+  Example:  
+  
+LOG - 
+  Example:  
+  
+MID$ - 
+  Example:  
+  
+NEW - 
+  Example:  
+  
+NEXT - 
+  Example:  
+  
+NOT - 
+  Example:  
+  
+ON - 
+  Example:  
+  
+OPEN - 
+  Example:  
+  
+OR - 
+  Example:  
+  
+PEEK - 
+  Example:  
+  
+POKE - 
+  Example:  
+  
+POS - 
+  Example:  
 PRINT - print text to the screen
-PRINT#
-READ
-REM
-RESTORE
-RETURN
-RIGHT$
-RND
-RUN
-SAVE
-SGN
-SIN
-SPC
-SQR
-STATUS / ST
-STEp
-STOP
-STR$
-SYS
-TAB
-TAN
-THEN
-TIME / TI
-TIME$ / TI$
-TO
-USR
-VAL
-VERIFY
-WAIT
+  Example:  
+  
+PRINT# - 
+  Example:  
+  
+READ - 
+  Example:  
+  
+REM - 
+  Example:  
+  
+RESTORE - 
+  Example:  
+  
+RETURN - 
+  Example:  
+  
+RIGHT$ - 
+  Example:  
+  
+RND - 
+  Example:  
+  
+RUN - 
+  Example:  
+  
+SAVE - 
+  Example:  
+  
+SGN - 
+  Example:  
+  
+SIN - 
+  Example:  
+  
+SPC - 
+  Example:  
+  
+SQR - 
+  Example:  
+  
+STATUS / ST - 
+  Example:  
+  
+STEP - 
+  Example:  
+  
+STOP - 
+  Example:  
+  
+STR$ - 
+  Example:  
+  
+SYS - 
+  Example:  
+  
+TAB - 
+  Example:  
+  
+TAN - 
+  Example:  
+  
+THEN - 
+  Example:  
+  
+TIME / TI - 
+  Example:  
+  
+TIME$ / TI$ - 
+  Example:  
+  
+TO - 
+  Example:  
+  
+USR - 
+  Example:  
+  
+VAL - 
+  Example:  
+  
+VERIFY - 
+  Example:  
+  
+WAIT - 
+  Example:  
+  
 
 CRSR
 INST
