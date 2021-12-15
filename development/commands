@@ -2,8 +2,15 @@
 The Commodore 64 has its own OS and programming language interpreter.
 The BASIC v2.0 (Beginner's All-purpose Symbolic Instruction Code Version 2) starts at the begining of the load screen.
 The following the commands associated with BASIC.
-ABS
-AND
+ABS - evaluates to the absolute value (value without the sign) of the given numeric term. 
+  Example: PRINT ABS(-10) (Screen: 10)
+
+AND - performs two functions in boolean expressions AND yeilds  the boolean value TRUE; in bitwise operations a bit in the resulting integer is set if and only if the corresponding bits from both integer ters are set. 
+  Example 1: PRINT 3>2 AND 5<6
+              -1      meaning "true"
+  Example 2: POKE 53265,PEEK (53265) AND 247    Bitwise operation to turn off
+                                   a single bit in a register
+                                   
 ASC(character) -prints and ASCII character to the screen
 ATN
 CHR$
@@ -85,4 +92,6 @@ SAVE
 
 PRINT CHR$ (147) - CLEAR SCREEN
 
-
+References:
+C64 WIKI - https://www.c64-wiki.com/wiki/C64-Commands
+Mastering the Commodore 64 by Mark Greenshields
