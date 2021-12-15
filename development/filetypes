@@ -1,0 +1,18 @@
+Commodore 64 File Types
+The C64 has these four file types. Really, it is 3 with a variation on Sequential called USR.
+
+We have already been using the PRG type as that is what our BASIC programs are saved as. PRG files can also be used for data and loaded using the LOAD,8,1 command as the first two bytes set the address in RAM to place the file.
+
+SEQ, or Sequential files are the simplest type. They must be read from the beginning in order to get to the part you need. Think of them like documents or plain text files.
+
+Unlike SEQ, you can access individual REL records directly thanks to an index stored on disk (“side-sectors”). REL files are organized as fixed-length records, and records can only be up to a maximum of 254 bytes in size due to the maximum sector size of the disk format.
+
+Back in the day, programs rarely used the USR file type. They are essentially a SEQ file for our needs.
+
+PRG	Program
+SEQ	Sequential
+REL	Relative / Random-Access
+USR	User
+
+Reference:
+Retro Game Coders - https://retrogamecoders.com/c64-dos-commands/
