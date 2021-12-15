@@ -1,5 +1,5 @@
-INPUT
-PRINT
+PRINT - print text to the screen
+INPUT - anything requiring user input. Example: INPUT VARIABLE$
 LET
 RUN
 LIST
