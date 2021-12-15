@@ -2,6 +2,7 @@
 The Commodore 64 has its own OS and programming language interpreter.
 The BASIC v2.0 (Beginner's All-purpose Symbolic Instruction Code Version 2) starts at the begining of the load screen.
 The following the commands associated with BASIC.
+
 ABS - evaluates to the absolute value (value without the sign) of the given numeric term. 
   Example:    PRINT ABS(-10) (Screen: 10)
 
@@ -23,10 +24,28 @@ CHR$ - can be used to convert a number between 0 and 255 into an ASCII character
   Example:  10 PRINT CHR$(147): REM clear the screen
             20 A$="First name"+CHR$(13)+"Surname": REM adding the <RETURN>-key into the string A$.
             30 PRINT A$: REM output A$
-CLOSE
-CLR - CLEAR VARIABLES
-CMD
-CPMT
+            
+CLOSE -  is used for closing currently opened files or drive numbers, so that the data can be written from a write buffer to the actual device like tape or disk. 
+  Example:  10 CLOSE Z
+
+CLR - LR deletes all variables, arrays, data read position from DATA lines, defined functions (DEF FN), return addresses of subroutines (GOSUB) and the state of loops (FOR and NEXT) by releasing the space in BASIC RAM and on stack previously allocated for those structures. Furthermore the state of open files (OPEN) and possibly buffered data for devices like diskette or datasette of the associated files gets lost because the data is freed.
+  Example:  0 POKE 56,52: CLR: REM make some free space after the BASIC program area for sprite, character or sound data
+            10 A$=""         : REM the above usage of the CLR command MUST precede the first variable usage
+            20 POKE 13312,8  : REM this would be dangerous if the BASIC program area was not limited in line 0 or CLR was omitted - program code could be overwritten
+            
+CMD - changes the data output from the screen to another peripheral device like datasette, modem, printer or disk drive. CMD can be used directly or in programs.
+  Example:  OPEN 1,4,7: CMD 4, "Test on printer capital/small letters in  program listing X": PRINT: LIST 
+            PRINT#1: CLOSE 1: REM finishing the redirection of the data output
+            
+CONST - used to resume execution of a BASIC program, which either ended in with an END or a STOP command, or was halted by pressing the RUN/STOP .
+  Example 1:  10 PRINT "PART 1"
+              20 END : PRINT "AFTER 'END'"
+              30 PRINT "PART 2"
+              shows PART 1
+              After giving CONT one gets
+              AFTER 'END'
+              PART 2
+RUN
 COS
 DATA
 DEF
