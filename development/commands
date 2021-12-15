@@ -13,3 +13,5 @@ CLR - CLEAR VARIABLES
 CHR
 POKE
 PRINT CHR$ (147) - CLEAR SCREEN
+ASC(character) -prints and ASCII character to the screen
+
