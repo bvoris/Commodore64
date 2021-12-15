@@ -45,14 +45,43 @@ CONST - used to resume execution of a BASIC program, which either ended in with 
               After giving CONT one gets
               AFTER 'END'
               PART 2
-RUN
-COS
-DATA
-DEF
-DIM
-END
-EXP
-FN
+              
+  Example 2: 10 PRINT "WAITING ..."
+              20 CONT 
+              
+COS -  is a mathematical function which evaluates to the cosine for a given angle, a number considered to be in radians.
+  Example:  PRINT COS(0)
+            Output: 1
+            ?COS(23*π/180) (cos of 23 degrees)
+
+DATA - is used to store constant information in the program code, and is used with the BASIC-command READ
+  Example:  10 DATACOMMODORE 64
+            11 DATA COMMODORE 64 :
+            12 DATA COMMODORE 64 , COMMODORE 64
+            13 DATA " COMMODORE 64 "
+            20 READ A$,B$,C$,D$,E$
+            25 PRINT ,,"STRING LENGTH":PRINT
+            30 PRINT A$, LEN(A$)
+            40 PRINT B$, LEN(B$)
+            50 PRINT C$, LEN(C$)
+            60 PRINT D$, LEN(D$)
+            70 PRINT E$, LEN(E$)
+            
+            giving following output:
+
+                    STRING LENGTH
+
+            COMMODORE 64         12
+            COMMODORE 64         13
+            COMMODORE 64         13
+            COMMODORE 64         12
+            COMMODORE 64         14
+            
+DEF - 
+DIM - 
+END - 
+EXP - 
+FN - 
 FOR
 FRE
 GET
