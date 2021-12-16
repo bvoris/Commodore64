@@ -1,4 +1,4 @@
-<IMG SRC="https://github.com/bvoris/Commodore64/blob/main/clogo.png" WIDTH=10% HEIGHT=10% ALIGN=CENTER> <FONT SIZE="20">Commodore 64<FONT />
+<IMG SRC="https://github.com/bvoris/Commodore64/blob/main/clogo.png" WIDTH=10% HEIGHT=10% ALIGN=CENTER> <FONT SIZE="20">Commodore 64</FONT>
 <BR /><BR />
 Commodore 64 Information and work
 
