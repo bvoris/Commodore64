@@ -4,7 +4,9 @@
 # Commodore 64
 <BR /><BR />
 Commodore 64 Information and work
-
+<BR />
+I've had a relationship with the Commodore 64 since I was a kid. My first computing and development experience was with a Commodore 64 in the mid eighties. My dad had purchased our Commodore 64 and 1541 disk drive which exposed me to computing, gaming, and BASIC programming and development. Today I've compiled this Github to share and store my notes, findings, references, and programs with the Github community.
+<BR />
 
 ## Connect with me at
 
