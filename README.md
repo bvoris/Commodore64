@@ -7,6 +7,8 @@ I've had a relationship with the Commodore 64 since I was a kid. My first comput
 <BR />
 <IMG SRC="https://github.com/bvoris/Commodore64/blob/main/1541.jpg" WIDTH=10% HEIGHT=10% ALIGN=LEFT><IMG SRC="https://github.com/bvoris/Commodore64/blob/main/c64.jpg" WIDTH=10% HEIGHT=10% ALIGN=RIGHT>
 <BR /><BR />
+<BR /><BR />
+
 ## Connect with me at
 
 <a href="https://twitter.com/HMInfoSecViking?ref_src=twsrc%5Etfw"><IMG SRC="https://github.com/bvoris/bvoris/blob/master/twitter.jpg" WIDTH=10% HEIGHT=10% ALIGN=LEFT></a>
