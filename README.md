@@ -20,5 +20,3 @@ I've had a relationship with the Commodore 64 since I was a kid. My first comput
 
 <A HREF="https://www.victimoftechnology.com">Victim Of Technology<A />
 <BR /><BR />
-<A HREF="https://www.cyberforgesecurity.com">Cyber Forge Security, Inc.<A />
-<BR /><BR />
